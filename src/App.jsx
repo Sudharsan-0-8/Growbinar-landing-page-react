@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import './App.css'
 import { useReplit } from '@replit/extensions/react';
+import './App.css'
 
 function App() {
   return (
-    <>hi</>
+    <div className="text-3xl font-bold">halop</div>
   )
 }
 
