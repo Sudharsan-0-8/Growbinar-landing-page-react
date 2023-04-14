@@ -1,13 +1,36 @@
 import React from "react";
 import Header from "./Header.jsx";
+import pic1 from "../assets/pic1.jpg";
+import pic2 from "../assets/pic2.jpg";
+import pic3 from "../assets/pic3.jpg";
+import pic4 from "../assets/pic4.jpg";
 
 import '../App.css'
 
 export default function Home(){
     return(
-        <div>
-            <div className="fixed -z-50 bg-gbblue/25 h-[100%] w-[35%] rounded-r-full top-0 left-0 " id="#bg">
+        <div className="container mx-auto px-4 flex flex-col lg:flex-row">
+            <div>
+                <div className="absolute blur-2xl -z-50 bg-gbviolet/30 h-[33%] w-[90%] md:w-[55%] rounded-tr-full top-0 left-0 " id="#bg"></div>
+                <div className="absolute blur-2xl -z-50 bg-gbblue/30 h-[33%] w-[90%] md:w-[60%] rounded-r-full top-[33%] left-0 " id="#bg"></div>
+                <div className="absolute blur-2xl -z-50 bg-gbgreen/30 h-[33%] w-[90%] md:w-[55%] rounded-br  -full top-[66%] left-0 " id="#bg"></div>
+            </div>
+            <div className="md:flex-1 flex flex-col  items-center mt-28 mx-auto ">
+                <h1 className="text-[40px] font-bold mb-4">Get career GPS with the help from top mentors around the Globe</h1>
+                <p className="text-white text-2xl font-bold mb-16">Get started to grow your career with mentorship from the experimental people from teh world's top organization</p>
+                <button className="px-4 py-2 self-start rounded-xl font-bold text-white text-xl bg-gradient-to-r from-gbviolet to-gbblue">
+                    Explore by Expertise
+                </button>
+            </div>
+            <div className="relative mt-20 lg:flex-1 flex flex-col lg:flex-col space-y-5 justify-center items-center">
+                <div className="h-80 w-80k">
 
+                    <img src={pic1} className="md:absolute rounded-xl animate-bounce delay-300 lg:top-0 lg:left-20 h-[125px] w-[200px]"/>
+                    <img src={pic2} className="md:absolute rounded-xl animate-bounce delay-500 lg:top-36 lg:right-4 h-[150px] w-[300px]"/>
+                    <img src={pic3} className="md:absolute rounded-xl animate-bounce delay-700 lg:bottom-2 lg:left-4 h-[125px] w-[200px]"/>
+                    <img src={pic4} className="md:absolute rounded-xl animate-bounce delay-1000 50 lg:-bottom-36 lg:right-36 h-[125px] w-[250px]"/>
+
+                </div>
             </div>
         </div>
     );
