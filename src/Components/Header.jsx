@@ -45,7 +45,7 @@ function Header() {
                         <div className="h-1 w-8 bg-gbviolet"></div>
                     </div>
                 </div>
-                <div className={`${isSideBarVisible?'visible':'hidden'} fixed flex flex-col w-[30%] h-[100%] bg-white shadow-2xl shadow-black z-50 top-0 right-0 p-10 space-y-6`}>
+                <div className={`${isSideBarVisible?'visible':'hidden'} fixed flex flex-col w-80 h-[100%] bg-white shadow-2xl shadow-black z-50 top-0 right-0 p-10 space-y-6`}>
                     <div className="self-end [cursor:pointer]"
                         onClick={()=>{
                             setSideBarVisiblity(false);  
