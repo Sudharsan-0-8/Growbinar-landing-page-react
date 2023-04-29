@@ -1,9 +1,9 @@
 import logo from '../assets/Grow_logo_full.png';
-import { AiFillInstagram, AiFillLinkedin, AiFillFacebook } from 'react-icons/ai'
+import { AiFillInstagram, AiFillLinkedin, AiFillFacebook } from 'react-icons/ai';
 
 function Footer({ className:classes }) {
     return (
-        <footer className={`${classes}`}>
+        <footer className={`${classes}  container mx-auto`}>
           <div className="md:object-left-bottom  p-20">        
             <img src={logo} className="h-28 mx-auto lg:mx-0" alt="Grow_logo"/>
                 <div className="">
@@ -14,7 +14,7 @@ function Footer({ className:classes }) {
                       <p>helping people mentees mentees</p>
                      </div>
                       <div className="flex-1 flex flex-col space-y-6">
-                       <div className="flex lg:flex-row flex-col lg:justify-center items-center lg:space-x-6 space-y-6 lg:space-y-0 text-gbviolet font-bold">
+                       <div className="flex xl:flex-row flex-col lg:justify-center items-center xl:space-x-6 space-y-6 lg:space-y-0 text-gbviolet font-bold">
                           <a className="text-xl hover:font-bold cursor-pointer">Be a Mentor</a>
                           <a className="text-xl hover:font-bold cursor-pointer">Careers</a>
                           <a className="text-xl hover:font-bold cursor-pointer">About</a>
