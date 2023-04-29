@@ -16,7 +16,8 @@ export default {
         gbviolet: '#7A61FF',
         gbblue: '#008CFF',
         gbgreen: '#0091A040',
-        gbgrey:'#808080'
+        gbgrey:'#808080',
+        gblightblue: '#0091D7',
       }
     },
   },

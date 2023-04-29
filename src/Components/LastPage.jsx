@@ -1,9 +1,10 @@
 import Arrays from './Arrays.js'
 import '../Css/marq.css'
+
 function LastPage({className:classes}){
     return(
-        <div>
-            <div className="Container">
+        <div className={`${classes} container mx-auto`} >
+            <div className="container">
                 <h3 className="text-black-600 text-center" style={{fontSize:"45px"}} ><strong>From Skeptics to Success - <span className="text-gbviolet">Hear it from 
                 them</span></strong></h3>
 
@@ -22,10 +23,10 @@ function LastPage({className:classes}){
                 <div className="marquee">
                 {
                     Arrays.map(s =>(
-                        <div className="mx-5 box-content h-50 w-150 p-2 border-2 border-dashed border-2 border-indigo-600 rounded-xl" >
-                        <img src={s.image_link} className="object-contain h-40 w-40 float-left p-2"/>
-                        <h3 className="content-end [overflow:none]">{s.name}</h3>
-                        <h3>{s.data}</h3>
+                        <div className="w-40 mx-5 box-content p-2 border-2 border-dashed border-indigo-600 rounded-xl" >
+                            <img src={s.image_link} className="object-contain h-40 w-40 float-left p-2"/>
+                            <h3 className="content-end [overflow:none]">{s.name}</h3>
+                            <h3>{s.data}</h3>
                         </div>
                     ))
                 }

@@ -5,14 +5,18 @@ import Home from './Components/Home';
 import Header from './Components/Header';
 import Footer from './Components/Footer'
 import LastPage from './Components/LastPage';
-import Second from "./Components/SecondPage";
+import Second from './Components/Second';
+import MentorCards from './Components/MentorCards';
+
 function App() {
   return (
     <div className="">
       <Header />
-      <Home />
-      <Footer className="mt-96" />
-      
+      <Home className="mb-96 md:mb-40" />
+      <Second />
+      <MentorCards className="mb-20" />
+      {/* <LastPage /> */}
+      <Footer className="" />
     </div>
   )
 }
