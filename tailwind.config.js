@@ -12,11 +12,29 @@ export default {
       xl: '1440px',
     },
     extend: {
+      width:{
+        '400':'45%',
+        '200':'75%',
+      },
+      height:{
+        '400':'60%',
+        '100':'50%',
+
+      },
+      right:{
+        '4':'75%',
+      },
+      left:{
+        '4':'75%',
+      },
       colors: {
         gbviolet: '#7A61FF',
         gbblue: '#008CFF',
         gbgreen: '#0091A040',
-        gbgrey:'#808080'
+        gbgrey:'#808080',
+        gborange:'#f97316',
+        lightorange:'#FF8E6BCC',
+        gbpink:'#FF589B',
       }
     },
   },

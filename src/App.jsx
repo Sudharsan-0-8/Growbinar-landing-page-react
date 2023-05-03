@@ -5,11 +5,11 @@ import Home from './Components/Home';
 import Header from './Components/Header';
 import Footer from './Components/Footer'
 import LastPage from './Components/LastPage';
-import Second from "./Components/SecondPage";
+import SLastPage from './Components/SLastPage';
 function App() {
   return (
     <div>
-      <Second />
+      <SLastPage/>
     </div>
   )
 }
