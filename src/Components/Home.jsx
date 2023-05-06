@@ -1,5 +1,4 @@
-import React from "react";
-import Header from "./Header.jsx";
+    import React from "react";
 import pic1 from "../assets/pic1.jpg";
 import pic2 from "../assets/pic2.jpg";
 import pic3 from "../assets/pic3.jpg";
@@ -13,7 +12,7 @@ export default function Home({ className:classes }){
             <div className="">
                 <div className="absolute blur-2xl -z-50 bg-gbviolet/30 h-[33%] w-[90%] md:w-[55%] rounded-tr-full top-0 left-0 " id="#bg"></div>
                 <div className="absolute blur-2xl -z-50 bg-gbblue/30 h-[33%] w-[90%] md:w-[60%] rounded-r-full top-[33%] left-0 " id="#bg"></div>
-                <div className="absolute blur-2xl -z-50 bg-gbgreen/30 h-[33%] w-[90%] md:w-[55%] rounded-br -full top-[66%] left-0 " id="#bg"></div>
+                <div className="absolute blur-2xl -z-50 bg-gbgreen/30 h-[33%] w-[90%] md:w-[55%] rounded-br-full top-[66%] left-0 " id="#bg"></div>
             </div>
             <div className="md:flex-1 flex flex-col  items-center md:mt-28 mx-auto ">
                 <h1 className="text-[40px] font-bold mb-4">Get career GPS with the help from top mentors around the Globe</h1>
