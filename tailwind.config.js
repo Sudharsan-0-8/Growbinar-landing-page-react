@@ -32,9 +32,11 @@ export default {
         gbblue: '#008CFF',
         gbgreen: '#0091A040',
         gbgrey:'#808080',
+        gblightblue: '#0091D7',
         gborange:'#f97316',
         lightorange:'#FF8E6BCC',
         gbpink:'#FF589B',
+
       }
     },
   },
