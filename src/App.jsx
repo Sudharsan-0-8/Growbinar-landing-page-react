@@ -7,6 +7,7 @@ import Footer from './Components/Footer'
 import LastPage from './Components/LastPage';
 import Second from './Components/Second';
 import MentorCards from './Components/MentorCards';
+import SLastPage from './Components/SLastPage';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <Home className="mb-96 md:mb-40" />
       <Second />
       <MentorCards className="mb-20" />
-      {/* <LastPage /> */}
+      <SLastPage />
+      <LastPage className='mt-40' />
       <Footer className="" />
     </div>
   )
