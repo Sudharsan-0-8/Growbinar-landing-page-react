@@ -29,7 +29,7 @@ function SLastPage(){
                         <br/>
                         <p className='text-lg font-bold text-black text-center lg:text-left'>Gain recognition for your hardwork and dedication with our innovative rewards system.Climb the ranks,achieve your goals.</p>
                     </div>
-                    <div className="flex-1 hidden lg:flex justify-center items-center p-10 h-96 w- rounded-l-xl bg-lightorange bg-cover">
+                    <div className="flex-1 hidden lg:flex justify-center items-center p-16 h-96 rounded-[12px]  bg-lightorange bg-cover">
                         <div className=''>
                             <img src={image} className='mr-4 h-100 w-200'/>
                         </div>
@@ -39,7 +39,7 @@ function SLastPage(){
                 <br/>
                 <br/>
                 <div className='mx:auto flex flex-row justify-between'>
-                    <div className='hidden lg:flex flex-[1] justify-end p-10 h-96 rounded-r-xl bg-gbpink '>
+                    <div className='hidden lg:flex flex-[1] justify-end p-10 h-96 rounded-[12px] bg-gbpink '>
                         <div>
                             <img src={casual} className='h-80 mr-4'/>
                         </div>

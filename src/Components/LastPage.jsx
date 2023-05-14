@@ -10,9 +10,9 @@ function LastPage({className:classes}){
 
             <br/><br/>
                 
-                <p className="text-black-400 text-center" 
+                <p className="text-black-400 font-bold text-center" 
                 style={{fontSize:"20px", fontWeight:"110px"}}>It is a long established fact that a reader will be distracted by the 
-                readable content of a page when looking at its layout. The point of</p>   
+                readable content of a page when looking at its layout.</p>   
             </div>
             
             <br/>

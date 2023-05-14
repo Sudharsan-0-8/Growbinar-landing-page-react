@@ -1,34 +1,11 @@
-const Companies = [
+const Companies=[
     {
-        cname:"https://picsum.photos/100"
+        Cardimg:'../assets/M1.jpg',
+        Logo:"../assets/M1C.jpg"
     },
     {
-        cname:"https://picsum.photos/100"
-    },
-    {
-        cname:"https://picsum.photos/100"
-
-    },
-    {
-        cname:"https://picsum.photos/100"
-    },
-    {
-        cname:"https://picsum.photos/100"
-    },
-    {
-        cname:"https://picsum.photos/100"
-    },
-    {
-        cname:"https://picsum.photos/100"
-    },
-    {
-        cname:"https://picsum.photos/100"
-    },
-    {
-        cname:"https://picsum.photos/100"
-    },
-    {
-        cname:"https://picsum.photos/100"
+        Cardimg:'../assets/M2.jpg',
+        Logo:"../assets/M2C.jpg"
     }
 ]
-export default Companies;
+export default Companies

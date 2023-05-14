@@ -9,7 +9,7 @@ function MentorCards({ className:classes }) {
             <h1 className="text-center text-[40px] font-bold">
                 Get advice from <span className="text-gbviolet">Top People in the field.</span>
             </h1>
-            <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center gap-y-8">
+            <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 justify-items-center gap-y-8">
                 <MentorCard />
                 <MentorCard />
                 <MentorCard />
@@ -29,7 +29,7 @@ function MentorCards({ className:classes }) {
                 }
                 
             </div>
-            <button className="mx-auto px-6 py-2 bg-white font-bold rounded-md mt-8"
+            <button disabled={true} className="mx-auto px-6 py-2 bg-white font-bold rounded-md mt-8" 
                     onClick={()=>setViewMoreStatus(!viewMore)}
                 >
                     { viewMore ? 'view less' : 'view more' }
