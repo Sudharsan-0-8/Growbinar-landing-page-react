@@ -23,10 +23,12 @@ function LastPage({className:classes}){
                 <div className="marquee">
                 {
                     Arrays.map(s =>(
-                        <div className="w-40 mx-5 box-content p-2 border-2 border-dashed border-indigo-600 rounded-xl" >
-                            <img src={s.image_link} className="object-contain h-40 w-40 float-left p-2"/>
-                            <h3 className="content-end [overflow:none]">{s.name}</h3>
-                            <h3>{s.data}</h3>
+                        <div className="flex flex-col items-center w-[500px] h-[200px] mx-5 box-content p-4 border-2 border-dashed border-indigo-600 rounded-xl">
+                            <div className='flex flex-row items-center'>
+                                <img src={s.image_link} className="justify-center object-contain h-[100px] w-[100px] float-left p-2"/>
+                                <h3 className="content-end [overflow:none] font-bold text-gbviolet align-top">{s.name+","}<h3 className='text-black'>{s.role}</h3></h3>
+                            </div>
+                            <h3 className='italic font-semibold text-md '>{s.data}</h3>
                         </div>
                     ))
                 }

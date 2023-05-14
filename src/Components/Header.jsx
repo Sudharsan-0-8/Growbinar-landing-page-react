@@ -5,7 +5,6 @@ import logo from "../assets/Grow_logo_full.png";
 
 function Header() {
     const [isSideBarVisible, setSideBarVisiblity] = useState(false);
-
     return (
         <div className="container mx-auto top-0">
             <div className="mx-auto flex flex-row justify-between lg:justify-between items-center">
@@ -22,7 +21,7 @@ function Header() {
                     </div>
                     <nav className="xl:flex hidden flex-row justify-between space-x-6">
                         <a className="text-xl hover:font-bold active:font-bold cursor-pointer">Home</a>
-                        <a className="text-xl hover:font-bold cursor-pointer">Events</a>
+                        <a className="text-xl hover:font-bold cursor-pointer">Internships</a>
                         <a className="text-xl hover:font-bold cursor-pointer">Be a Mentor</a>
                     </nav>
                     <div className="xl:flex hidden flex-row border-2 border-slate-400 rounded-xl w-fit h-10">

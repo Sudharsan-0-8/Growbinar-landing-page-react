@@ -1,5 +1,6 @@
 import { useState } from "react";
 import MentorCard from "./MentorCard";
+import Companies from "./Companies";
 
 function MentorCards({ className:classes }) {
     const [viewMore, setViewMoreStatus] = useState(false);
@@ -10,10 +11,14 @@ function MentorCards({ className:classes }) {
                 Get advice from <span className="text-gbviolet">Top People in the field.</span>
             </h1>
             <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 justify-items-center gap-y-8">
-                <MentorCard />
-                <MentorCard />
-                <MentorCard />
-                <MentorCard />
+                {
+                    Companies.map((value,index)=>(
+                      
+                        <MentorCard Name={Companies[index].Name} Cardimg={Companies[index].Cardimg} Logo={Companies[index].Logo}
+                        Role={Companies[index].Role}/>
+                       
+                    ))
+                }
                 {
                     viewMore ? (
                         <>
