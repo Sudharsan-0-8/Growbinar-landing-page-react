@@ -1,7 +1,7 @@
 function MentorCard({ className:classes, Cardimg,Logo,Name,Role}) {
     return (
         <div className={`${classes} group h-fit w-fit relative`}>
-                        <img src={Cardimg}
+                        <img src={require(Cardimg)}
                             className="z-10 rounded-xl h-[300px] w-[280px]" 
                         />
                     <div className="hidden group-hover:block h-fit w-full pt-4 pb-2 bg-white absolute bottom-0 z-30 rounded-xl">
