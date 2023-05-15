@@ -1,7 +1,7 @@
 const Companies=[
     {
         Cardimg:'/M1.jpg',
-        Logo:"/M1C.png",
+        Logo:"../ets/M1C.png",
         Name:"Raamanujan",
         Role:"UI/UX Designer"
     },
