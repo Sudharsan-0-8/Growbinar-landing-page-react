@@ -3,13 +3,13 @@ const Companies=[
         Cardimg:'/M1.jpg',
         Logo:"/M1C.png",
         Name:"Raamanujan",
-        Role:"Data Scientist"
+        Role:"UI/UX Designer"
     },
     {
         Cardimg:'/M2.jpg',
         Logo:"/M2C.jpg",
         Name:"Dipanjan De",
-        Role:"Data Scientist"
+        Role:"Full Stack Developer and Data Scientist"
     },
     {
         Cardimg:'/M3.jpg',
@@ -21,7 +21,7 @@ const Companies=[
         Cardimg:'/M4.jpg',
         Logo:"/M4C.png",
         Name:"Sai Teja",
-        Role:"Data Scientist"
+        Role:"Software Development Engineer"
 
     }
 ]
