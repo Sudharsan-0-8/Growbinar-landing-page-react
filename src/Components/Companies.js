@@ -1,25 +1,25 @@
 const Companies=[
     {
-        Cardimg:'src/assets/M1.jpg',
-        Logo:"src/assets/M1C.png",
+        Cardimg:'/M1.jpg',
+        Logo:"/M1C.png",
         Name:"Raamanujan",
         Role:"Data Scientist"
     },
     {
-        Cardimg:'src/assets/M2.jpg',
-        Logo:"src/assets/M2C.jpg",
+        Cardimg:'/M2.jpg',
+        Logo:"/M2C.jpg",
         Name:"Dipanjan De",
         Role:"Data Scientist"
     },
     {
-        Cardimg:'src/assets/M3.jpg',
-        Logo:"src/assets/M3C.png",
+        Cardimg:'/M3.jpg',
+        Logo:"/M3C.png",
         Name:"Kanraj Mohan",
         Role:"Data Scientist"
     },
     {
-        Cardimg:'src/assets/M4.jpg',
-        Logo:"src/assets/M4C.png",
+        Cardimg:'/M4.jpg',
+        Logo:"/M4C.png",
         Name:"Sai Teja",
         Role:"Data Scientist"
 

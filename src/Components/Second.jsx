@@ -1,4 +1,4 @@
-import Reward_feature from '../assets/Reward_feature.svg';
+import Reward_feature from '/group.png';
 
 function Second({ className: classes }) {
     return (
@@ -19,7 +19,7 @@ function Second({ className: classes }) {
             </div>
             <div className='flex-[7] flex justify-center items-center'>
                 <img src={Reward_feature} 
-                    className='h-64 z-[999]'
+                    className='h-[600px] w-[800px]'
                 />
                 <div className='hidden md:block h-96 w-96 absolute'>
                     <div className='absolute -top-24 -left-24 bg-gbviolet/30 rounded-full blur-2xl z-[-999] h-96 w-96'></div>
