@@ -36,7 +36,8 @@ export default {
         gborange:'#f97316',
         lightorange:'#FF8E6BCC',
         gbpink:'#FF589B',
-
+        lightgrey:'#F6F6F6',
+        greyheader:'#464646',
       }
     },
   },

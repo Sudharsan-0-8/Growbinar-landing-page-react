@@ -17,7 +17,7 @@ function Second({ className: classes }) {
                 </div>
             </div>
             <div className='flex-[7] flex justify-center items-center'>
-                <img src={import.meta.env.VITE_PUBLIC_URL + '/group.png'}
+                <img src={'src\\assets\\group.png'}
                     className='h-[600px] w-[800px]'
                 />
                 <div className='hidden md:block h-96 w-96 absolute'>

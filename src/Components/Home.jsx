@@ -16,7 +16,7 @@ export default function Home({ className:classes }){
             </div>
             <div className="md:flex-1 flex flex-col  items-center md:mt-28 mx-auto ">
                 <h1 className="text-[40px] font-bold mb-4">Get career GPS with the help from top mentors around the Globe</h1>
-                <p className="text-white text-2xl font-bold mb-16">Get started to grow your career with mentorship from the experimental people from teh world's top organization</p>
+                <p className="text-white text-2xl font-bold mb-16">Get started to grow your career with mentorship from the experimental people from tech world's top organization</p>
                 <button className="px-4 py-2 self-start rounded-xl font-bold text-white text-xl bg-gradient-to-r from-gbviolet to-gbblue">
                     Explore by Expertise
                 </button>
@@ -24,10 +24,10 @@ export default function Home({ className:classes }){
             <div className="relative mt-20 lg:flex-1 flex flex-col md:flex-col space-y-5  items-center">
                 <div className="h-56 w-56 space-y-4">
 
-                    <img src={pic1} className="block lg:absolute relative mx-auto rounded-xl md:animate-bounce delay-300 lg:top-0 lg:left-20 h-[125px] w-[200px]"/>
-                    <img src={pic2} className="block lg:absolute relative mx-auto rounded-xl md:animate-bounce delay-500 lg:top-36 lg:right-4 h-[150px] w-[300px]"/>
-                    <img src={pic3} className="block lg:absolute relative mx-auto rounded-xl md:animate-bounce delay-700 lg:bottom-2 lg:left-4 h-[125px] w-[200px]"/>
-                    <img src={pic4} className="block lg:absolute relative mx-auto rounded-xl md:animate-bounce delay-1000 50 lg:-bottom-36 lg:right-36 h-[125px] w-[250px]"/>
+                    <img src={pic1} className="block lg:absolute relative mx-auto rounded-xl md:animate-bounce delay-300 lg:top-0 lg:left-20 h-[150px] w-[250px]"/>
+                    <img src={pic2} className="block lg:absolute relative mx-auto rounded-xl md:animate-bounce delay-500 lg:top-36 lg:right-4 h-[175px] w-[275px]"/>
+                    <img src={pic4} className="block lg:absolute relative mx-auto rounded-xl md:animate-bounce delay-700 lg:bottom-2 lg:left-4 h-[150px] w-[300px]"/>
+                    <img src={pic3} className="block lg:absolute relative mx-auto rounded-xl md:animate-bounce delay-1000 50 lg:-bottom-36 lg:right-36 h-[125px] w-[225px]"/>
 
                 </div>
             </div>

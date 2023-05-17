@@ -6,16 +6,16 @@
     display: flex;
     animation-name: marquee;
     animation-duration: 30s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; 
     animation-timing-function: linear;
-    animation-direction: alternate;
-    transform: translateX(0);
+    animation-direction: left;
+    animation-delay: 0ms;
     img {
       padding: 1em;
     }
   }
   
   @keyframes marquee {
-    from {transform: translateX(0);}
+    from {transform: translateX(65%);}
     to {transform: translateX(-100%);}
   }

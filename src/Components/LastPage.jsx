@@ -24,8 +24,8 @@ function LastPage({className:classes}){
                     Arrays.map(s =>(
                         <div className="flex flex-col items-center w-[500px] h-[200px] mx-5 box-content p-4 border-2 border-dashed border-indigo-600 rounded-xl">
                             <div className='flex flex-row items-center'>
-                                <img src={import.meta.env.VITE_PUBLIC_URL+ s.image_link} className="justify-center object-contain h-[100px] w-[100px] float-left p-2"/>
-                                console.log({s.image_link});
+                                <img src={s.image_link} className="justify-center object-contain h-[100px] w-[100px] float-left p-2"/>
+                                
                                 <h3 className="content-end [overflow:none] font-bold text-gbviolet align-top">{s.name+","}<h3 className='text-black'>{s.role}</h3></h3>
                             </div>
                             <h3 className='italic font-semibold text-md '>{s.data}</h3>
@@ -38,10 +38,10 @@ function LastPage({className:classes}){
             <br/>
             <div className="text-gbviolet text-3xl font-bold text-center justify-center">
                 <p> 
-                Level up your career with our mentorship platform
+                Level up your career with our mentorship platform,
                 </p>
                 <p>
-                -where inspiration meets achievement.Join now
+                where inspiration meets achievement. Join now
                 </p>
                 <p>
                 and let's make your dreams a reality
