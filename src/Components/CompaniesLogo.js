@@ -1,7 +1,7 @@
 const CompaniesLogo = [
     {
-        Logo:"src\\assets\\paytm.png",
-        Name:"PayTm",
+        Logo:"src\\assets\\zomato.png",
+        Name:"Zomato",
     },{
         Logo:"src\\assets\\wipro.png",
         Name:"Wipro",
@@ -29,6 +29,9 @@ const CompaniesLogo = [
     },{
         Logo:"src\\assets\\ey.png",
         Name:"EY",
+    },{
+        Logo:"src\\assets\\zerodha.png",
+        Name:"Zerodha",
     }
 ]
 

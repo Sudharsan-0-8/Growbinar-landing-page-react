@@ -9,7 +9,7 @@ function MentorCard({ className:classes, Cardimg,Logo,Name,Role}) {
                             {Name}
                         </h1>
                         
-                        <h2 className='text-center font-normal text-xl'>
+                        <h2 className='text-center font-normal text-m'>
                             {Role}
                         </h2>
 

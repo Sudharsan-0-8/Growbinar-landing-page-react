@@ -16,7 +16,7 @@ export default function Home({ className:classes }){
             </div>
             <div className="md:flex-1 flex flex-col  items-center md:mt-28 mx-auto ">
                 <h1 className="text-[40px] font-bold mb-4">Get career GPS with the help from top mentors around the Globe</h1>
-                <p className="text-white text-2xl font-bold mb-16">Get started to grow your career with mentorship from the experimental people from tech world's top organization</p>
+                <p className="text-white text-2xl font-bold mb-16">Get started to grow your career with mentorship from the experimental people from world's top organization</p>
                 <button className="px-4 py-2 self-start rounded-xl font-bold text-white text-xl bg-gradient-to-r from-gbviolet to-gbblue">
                     Explore by Expertise
                 </button>

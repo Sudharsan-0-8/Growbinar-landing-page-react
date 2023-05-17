@@ -27,7 +27,7 @@ function SLastPage(){
                     <div className="flex-1 flex flex-col text-left mx-20 justify-center">
                         <p className="font-bold text-2xl text-center lg:text-left">Unlock achievements and rise up the ranks with our <span className="text-gborange">rewards program.</span></p> 
                         <br/>
-                        <p className='text-lg font-bold text-black text-center lg:text-left'>Gain recognition for your hardwork and dedication with our innovative rewards system.Climb the ranks,achieve your goals.</p>
+                        <p className='text-lg font-medium text-black text-center lg:text-left'>Gain recognition for your hardwork and dedication with our innovative rewards system.Climb the ranks,achieve your goals.</p>
                     </div>
                     <div className="flex-1 hidden lg:flex justify-center items-center p-16 h-96 rounded-[12px]  bg-lightorange bg-cover">
                         <div className=''>

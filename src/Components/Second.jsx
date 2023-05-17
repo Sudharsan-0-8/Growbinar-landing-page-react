@@ -8,7 +8,7 @@ function Second({ className: classes }) {
                         It was never this 
                         <span className='text-gbviolet'>{' '}Easy</span>
                     </h2>
-                    <p className='md:w-80 text-xl mt-3'>
+                    <p className='md:w-80 text-xl font-semibold mt-3'>
                         Match with your mentor based on your Goal and just get started to the journey of your growth
                     </p>
                     <button className='bg-gradient-to-tr from-gbviolet to-gbblue py-2 px-6 rounded-xl font-bold text-xl text-white mt-5'>

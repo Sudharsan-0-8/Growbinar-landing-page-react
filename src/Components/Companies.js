@@ -9,7 +9,7 @@ const Companies=[
         Cardimg:'src\\assets\\M2.jpg',
         Logo:"src\\assets\\M2C.jpg",
         Name:"Dipanjan De",
-        Role:"Full Stack Developer and Data Scientist"
+        Role:"Full Stack Developer"
     },
     {
         Cardimg:'src\\assets\\M3.jpg',

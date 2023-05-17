@@ -3,12 +3,12 @@ import { AiFillInstagram, AiFillLinkedin, AiFillFacebook } from 'react-icons/ai'
 
 function Footer({ className:classes }) {
     return (
-        <footer className={`${classes}  container mx-auto`}>
-          <div className="md:object-left-bottom  p-20">        
-            <img src={logo} className="h-28 mx-auto lg:mx-0" alt="Grow_logo"/>
+        <footer className={`${classes} border-t-2 border-solid border-gbviolet`}>
+          <div className="md:object-left-bottom  p-20 pb-10 pt-10">        
+            <img src={logo} className="h-24 " alt="Grow_logo"/>
                 <div className="">
                     <div className="md:flex lg:flex-row space-y-8 lg:space-y-0 flex-col justify-between">
-                     <div className="flex-1 text-black-200 text-center lg:text-left justify-center text-xl font-bold">
+                     <div className="flex-1 text-black-200 text-center lg:text-left justify-center text-xl font-medium">
                       <p>Growbinar is a mentorhip platform to</p>
                       <p>efficiently connect Mentors which enjoy</p>
                       <p>helping people mentees mentees</p>
@@ -25,11 +25,11 @@ function Footer({ className:classes }) {
                       </div>
                       <div className="flex-1 flex flex-col space-y-6">
                         <div className="flex flex-row justify-center lg:justify-end space-x-10">
-                          <AiFillInstagram className="text-3xl" />
-                          <AiFillLinkedin className="text-3xl" />
-                          <AiFillFacebook className="text-3xl" />
+                          <AiFillInstagram className="text-3xl"  onClick={() => window.open('https://www.instagram.com/growbinar/')}/>
+                          <AiFillLinkedin className="text-3xl" onClick={() => window.open('https://www.linkedin.com/company/growbinar/')}/>
+                          <AiFillFacebook className="text-3xl" href='#' onClick={() => window.open('/')}/>
                         </div>
-                        <div className="flex lg:flex-row flex-col justify-between items-center">
+                        <div className="flex lg:flex-row flex-col gap-[10px] justify-end items-center">
                           <a href="" className="underline">Contact us</a>
                           <a href="" className="underline">Privacy policy</a>
                           <a href="" className="underline">Terms of use</a>

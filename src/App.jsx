@@ -19,7 +19,6 @@ function App() {
       <TopCompanies/>
       <Second />
       <MentorCards className="mb-20" />
-      <Webinar/>
       <SLastPage />
       <LastPage className='mt-40' />
       <Footer className="" />

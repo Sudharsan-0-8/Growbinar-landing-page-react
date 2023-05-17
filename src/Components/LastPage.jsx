@@ -2,7 +2,7 @@ import Arrays from './Arrays.js'
 import '../Css/marq.css'
 function LastPage({className:classes}){
     return(
-        <div className={`${classes} container mx-auto`} >
+        <div className={`${classes} container mx-auto mb-[50px]`} >
             <div className="container">
                 <h3 className="text-black-600 text-center" style={{fontSize:"45px"}} ><strong>From Skeptics to Success - <span className="text-gbviolet">Hear it from 
                 them</span></strong></h3>
@@ -10,8 +10,7 @@ function LastPage({className:classes}){
             <br/><br/>
                 
                 <p className="text-black-400 font-bold text-center" 
-                style={{fontSize:"20px", fontWeight:"110px"}}>It is a long established fact that a reader will be distracted by the 
-                readable content of a page when looking at its layout.</p>   
+                style={{fontSize:"20px", fontWeight:"600"}}>Our Members inspire us to build this community of people to connect the<br/> right mentor with the right mentee, hear what they have to say</p>   
             </div>
             
             <br/>

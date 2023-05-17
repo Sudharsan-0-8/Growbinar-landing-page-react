@@ -21,14 +21,14 @@ function Header() {
                     </div>
                     <nav className="xl:flex hidden flex-row justify-between space-x-6">
                         <a className="text-xl hover:font-bold active:font-bold cursor-pointer">Home</a>
-                        <a className="text-xl hover:font-bold cursor-pointer">Internships</a>
+                        <a className="text-xl hover:font-bold cursor-pointer" href="./internships.html">Internships</a>
                         <a className="text-xl hover:font-bold cursor-pointer">Be a Mentor</a>
                     </nav>
-                    <div className="xl:flex hidden flex-row border-2 border-slate-400 rounded-xl w-fit h-10">
+                    <div className="xl:flex hidden flex-row border-2 border-slate-400 rounded-full w-fit h-10">
                         <button className="px-10 font-bold text-gbviolet">
                             login
                         </button>
-                        <div className="px-10 text-white font-bold bg-gbviolet rounded-xl text-center py-1.5 [cursor:pointer]">
+                        <div className="px-10 text-white font-bold bg-gbviolet rounded-xl text-center py-1.5 [cursor:pointer] rounded-xl">
                             signup
                         </div>
                     </div>
