@@ -1,36 +1,47 @@
+import Zomato from '../assets/zomato.png';
+import Wipro from '../assets/wipro.png';
+import Meta from '../assets/meta.png';
+import Microsoft from '../assets/microsoft.png';
+import Deloitte from '../assets/deloitte.png';
+import Accenture from '../assets/accenture.png';
+import Uber from '../assets/uber.png';
+import Tata from '../assets/tata.png';
+import Amazon from '../assets/amazon.png';
+import EY from '../assets/ey.png';
+import Zerodha from '../assets/zerodha.png';
 const CompaniesLogo = [
     {
-        Logo:"src\\assets\\zomato.png",
+        Logo:Zomato,
         Name:"Zomato",
     },{
-        Logo:"src\\assets\\wipro.png",
+        Logo:Wipro,
         Name:"Wipro",
     },{
-        Logo:"src\\assets\\meta.png",
+        Logo:Meta,
         Name:"Meta",
     },{
-        Logo:"src\\assets\\microsoft.png",
+        Logo:Microsoft,
         Name:"Microsoft",
     },{
-        Logo:"src\\assets\\deloitte.png",
+        Logo:Deloitte,
         Name:"Deloitte",
     },{
-        Logo:"src\\assets\\accenture.png",
+        Logo:Accenture,
         Name:"Accenture",
     },{
-        Logo:"src\\assets\\uber.png",
+        Logo:Uber,
         Name:"Uber",
     },{
-        Logo:"src\\assets\\tata.png",
+        Logo:Tata,
         Name:"Tata",
     },{
-        Logo:"src\\assets\\amazon.png",
+        Logo:Amazon,
         Name:"Amazon",
     },{
-        Logo:"src\\assets\\ey.png",
+        Logo:EY,
         Name:"EY",
     },{
-        Logo:"src\\assets\\zerodha.png",
+        Logo:Zerodha,
         Name:"Zerodha",
     }
 ]

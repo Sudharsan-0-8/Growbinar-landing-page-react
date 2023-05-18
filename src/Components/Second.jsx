@@ -1,4 +1,4 @@
-
+import Group from '../assets/group.png';
 function Second({ className: classes }) {
     return (
         <div className={`${classes} container mx-auto flex flex-col md:flex-row h-[100vh]`}>
@@ -17,7 +17,7 @@ function Second({ className: classes }) {
                 </div>
             </div>
             <div className='flex-[7] flex justify-center items-center'>
-                <img src={'src\\assets\\group.png'}
+                <img src={Group}
                     className='h-[600px] w-[800px]'
                 />
                 <div className='hidden md:block h-96 w-96 absolute'>

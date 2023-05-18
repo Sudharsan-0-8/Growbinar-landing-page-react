@@ -1,3 +1,12 @@
+import M1 from '../assets/M1.jpg';
+import M1C from '../assets/M1C.png';
+import M2 from '../assets/M2.jpg';
+import M2C from '../assets/M2C.jpg';
+import M3 from '../assets/M3.jpg';
+import M3C from '../assets/M3C.png';
+import M4 from '../assets/M4.jpg';
+import M4C from '../assets/M4C.png';
+
 const Companies=[
     {
         Cardimg:'src\\assets\\M1.jpg',
