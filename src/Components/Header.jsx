@@ -1,10 +1,12 @@
- import { useState } from "react";
-
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import logo from "../assets/Grow_logo_full.png";
 
 
 function Header() {
     const [isSideBarVisible, setSideBarVisiblity] = useState(false);
+    const navigate=useNavigate();
+
     return (
         <div className="container mx-auto top-0">
             <div className="mx-auto flex flex-row justify-between lg:justify-between items-center">
@@ -21,7 +23,7 @@ function Header() {
                     </div>
                     <nav className="xl:flex hidden flex-row justify-between space-x-6">
                         <a className="text-xl hover:font-bold active:font-bold cursor-pointer">Home</a>
-                        <a className="text-xl hover:font-bold cursor-pointer" href="./internships.html">Internships</a>
+                        <a className="text-xl hover:font-bold cursor-pointer" onClick={()=>navigate('/intern')}>Internships</a>
                         <a className="text-xl hover:font-bold cursor-pointer">Be a Mentor</a>
                     </nav>
                     <div className="xl:flex hidden flex-row border-2 border-slate-400 rounded-full w-fit h-10">

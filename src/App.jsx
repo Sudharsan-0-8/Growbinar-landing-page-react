@@ -10,20 +10,28 @@ import MentorCards from './Components/MentorCards';
 import SLastPage from './Components/SLastPage';
 import TopCompanies from './Components/TopCompanies';
 import Webinar from './Components/Webinar';
+import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
+import Internships from './Components/Internships.jsx';
 
 
 function App() {
   return (
-    <div className="">
-      <Header />
-      <Home className="mb-96 md:mb-40" />
-      <TopCompanies/>
-      <Second />
-      <MentorCards className="mb-20" />
-      <SLastPage />
-      <LastPage className='mt-40' />
-      <Footer className="" />
-    </div>
+   
+
+      <div className="">
+        <Header />
+        <Home className="mb-96 md:mb-40" />
+        <TopCompanies/>
+        <Second />
+        <MentorCards className="mb-20" />
+        <SLastPage />
+        <LastPage className='mt-40' />
+        <Footer className="" />
+
+          <Routes>
+              <Route path="/intern" element={<Internships />} />
+          </Routes>
+      </div>
   )
 }
 
