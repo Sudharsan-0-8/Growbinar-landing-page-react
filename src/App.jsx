@@ -20,15 +20,25 @@ function App() {
 
       <div className="">
         <Header />
-        <Home className="mb-96 md:mb-40" />
-        <TopCompanies/>
-        <Second />
-        <MentorCards className="mb-20" />
-        <SLastPage />
-        <LastPage className='mt-40' />
-        <Footer className="" />
 
           <Routes>
+              <Route path="/" element={ <>
+
+        <Home className="mb-96 md:mb-40" />
+
+        <TopCompanies/>
+
+        <Second />
+
+        <MentorCards className="mb-20" />
+
+        <SLastPage />
+
+        <LastPage className='mt-40' />
+
+        <Footer className="" />
+
+    </> } />
               <Route path="/intern" element={<Internships />} />
           </Routes>
       </div>
