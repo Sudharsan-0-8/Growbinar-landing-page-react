@@ -9,26 +9,26 @@ import M4C from '../assets/M4C.png';
 
 const Companies=[
     {
-        Cardimg:'src\\assets\\M1.jpg',
-        Logo:"src\\assets\\M1C.png",
+        Cardimg:M1,
+        Logo:M1C,
         Name:"Raamanujan",
         Role:"UI/UX Designer"
     },
     {
-        Cardimg:'src\\assets\\M2.jpg',
-        Logo:"src\\assets\\M2C.jpg",
+        Cardimg:M2,
+        Logo:M2C,
         Name:"Dipanjan De",
         Role:"Full Stack Developer"
     },
     {
-        Cardimg:'src\\assets\\M3.jpg',
-        Logo:"src\\assets\\M3C.png",
+        Cardimg:M3,
+        Logo:M3C,
         Name:"Kanraj Mohan",
         Role:"Data Scientist"
     },
     {
-        Cardimg:'src\\assets\\M4.jpg',
-        Logo:"src\\assets\\M4C.png",
+        Cardimg:M4,
+        Logo:M4C,
         Name:"Sai Teja",
         Role:"Software Development Engineer"
 

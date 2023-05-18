@@ -4,8 +4,10 @@ import { AiFillInstagram, AiFillLinkedin, AiFillFacebook } from 'react-icons/ai'
 function Footer({ className:classes }) {
     return (
         <footer className={`${classes} border-t-2 border-solid border-gbviolet`}>
-          <div className="md:object-left-bottom  p-20 pb-10 pt-10">        
+          <div className="md:object-left-bottom  p-20 pb-10 pt-10">      
+          <span className='inline-block'>  
             <img src={logo} className="h-24 " alt="Grow_logo"/>
+            </span>
                 <div className="">
                     <div className="md:flex lg:flex-row space-y-8 lg:space-y-0 flex-col justify-between">
                      <div className="flex-1 text-black-200 text-center lg:text-left justify-center text-xl font-medium">

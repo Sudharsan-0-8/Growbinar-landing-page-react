@@ -11,9 +11,11 @@ function Header() {
         <div className="container mx-auto top-0">
             <div className="mx-auto flex flex-row justify-between lg:justify-between items-center">
                 <div className="flex-[1.5] flex flex-row justify-start items-center">
+                    <span>
                     <img src={logo} alt="Growbinar Logo" 
                         className="h-36 flex-shrink-0"
                     />
+                    </span>
                 </div>
                 <div className="flex lg:flex-[3.5] flex-row md:justify-center lg:justify-center xl:justify-around  items-center">
                     <div className="hidden lg:flex outline-none h-fit w-64 bg-white border-2 border-slate-400 focus:ring-2 ring-gbviolet ring-offset-2 target:border-gbviolet rounded-xl">
